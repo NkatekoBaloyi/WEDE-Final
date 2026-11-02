@@ -2,7 +2,7 @@
 
 A responsive, multi-page website for **SparkleBay**, a mobile car wash serving Johannesburg, built for WEDE5020 (Web Development Introduction).
 
-- **Live site:** https://sparklebay.netlify.app *(replace with your deployed URL)*
+- **Live site:** https://sparklebay.netlify.app
 - **Repository:** *(https://github.com/NkatekoBaloyi/WEDE-Final)*
 - **Student:** *(Nkateko Baloyi )*
 
