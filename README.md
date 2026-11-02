@@ -2,9 +2,9 @@
 
 A responsive, multi-page website for **SparkleBay**, a mobile car wash serving Johannesburg, built for WEDE5020 (Web Development Introduction).
 
-- **Live site:** https://sparklebay.netlify.app
-- **Repository:** *(https://github.com/NkatekoBaloyi/WEDE-Final)*
-- **Student:** *(Nkateko Baloyi ST10524257 )*
+- **Live site:** https://sparklebay.netlify.app *(replace with your deployed URL)*
+- **Repository:** *(add your GitHub link)*
+- **Student:** *(Nkateko Baloyi st10524257)*
 
 ## Table of contents
 1. [Project overview](#1-project-overview)
@@ -24,7 +24,7 @@ A responsive, multi-page website for **SparkleBay**, a mobile car wash serving J
 ## 1. Project overview
 > Keep your Part 1 text here: business purpose, target audience (students, busy professionals, small business fleets, car enthusiasts), brand colours, wireframes and sitemap.
 
-SparkleBay brings an eco-friendly car wash to the customer's home, office, or our fixed site. The website lets visitors learn about the business, compare services and prices, ask for an estimate, book a wash and contact the team.
+SparkleBay brings an eco-friendly car wash to the customer's home, office or our fixed site. The website lets visitors learn about the business, compare services and prices, ask for an estimate, book a wash and contact the team.
 
 ## 2. Tech stack
 | Area | Choice |
@@ -49,6 +49,7 @@ SparkleBay brings an eco-friendly car wash to the customer's home, office, or ou
 ├── enquiry.html        Enquiry form (estimate response)
 ├── contact.html        Contact form + interactive map
 ├── changelog.html      Website summary of project changes
+├── docs/               Word documentation (SparkleBay_Project_Documentation.docx)
 ├── style.css           Part 2 styles (design tokens, layout, responsive rules)
 ├── part3.css           Part 3 component styles
 ├── script.js           All JavaScript
@@ -67,7 +68,7 @@ SparkleBay brings an eco-friendly car wash to the customer's home, office, or ou
 4. Geolocation (map button) needs `localhost` or HTTPS, so Live Server is recommended.
 
 ## 5. Features by part
-**Part 1: structure.** Seven linked pages, shared navigation, semantic HTML, tables, forms, and images with alt text.
+**Part 1: structure.** Seven linked pages, shared navigation, semantic HTML, tables, forms and images with alt text.
 
 **Part 2: styling and responsiveness.** Design tokens (navy, aqua, white, charcoal), type scale, sticky header, cards, striped table, hover and focus states, breakpoints at 639px and 899px, reduced-motion support.
 
@@ -109,16 +110,18 @@ SparkleBay brings an eco-friendly car wash to the customer's home, office, or ou
 | Map loads, marker and circle show, location button works | |
 | Layout checked at 360px, 768px and 1280px widths | |
 | Keyboard-only use: tabs, accordion, lightbox and forms | |
-| Deployed site loads without console errorsscripts*(Fill in the Result column as you test.)*
+| Deployed site loads without console errors | |
+
+*(Fill in the Result column as you test.)*
 
 ## 8. Deployment
 1. Push the repository to GitHub.
-2. In Netlify, choose **Add new site > Import from Git**, select the repository, leave the build command empty, and set the publish directory to `/`.
-3. Replace `https://sparklebay.netlify.app` in the canonical tags, `sitemap.xml`, and `robots.txt` with the real URL.
-4. Create a form at formspree.io and replace `YOUR_FORM_ID` in `booking.html`. Until then, the booking form runs in demo mode.
+2. In Netlify choose **Add new site > Import from Git**, select the repository, leave the build command empty and set the publish directory to `/`.
+3. Replace `https://sparklebay.netlify.app` in the canonical tags, `sitemap.xml` and `robots.txt` with the real URL.
+4. Create a form at formspree.io and replace `YOUR_FORM_ID` in `booking.html`. Until then the booking form runs in demo mode.
 
 ## 9. Git workflow and commit evidence
-Work is committed in small steps with messages in the form `type: what changed`, where the type is `feat`, `fix`, `style`, `docs,` or `seo`. Example history for Part 3:
+Work is committed in small steps with messages in the form `type: what changed`, where the type is `feat`, `fix`, `style`, `docs` or `seo`. Example history for Part 3:
 
 | # | Commit message |
 |---|---|
@@ -135,7 +138,7 @@ Work is committed in small steps with messages in the form `type: what changed`,
 | 11 | `seo: add robots.txt, sitemap.xml and security headers` |
 | 12 | `docs: rewrite README with documentation and formal changelog` |
 
-Branching: `main` holds the deployed version; larger changes can be developed on a branch (for example, `feature/map`) and merged. Run `git log --oneline` to view the history.
+Branching: `main` holds the deployed version; larger changes can be developed on a branch (for example `feature/map`) and merged. Run `git log --oneline` to view the history.
 
 ## 10. Changelog
 This project follows the [Keep a Changelog](https://keepachangelog.com) format and semantic versioning. Dates are `2026-10-24`.
@@ -147,13 +150,13 @@ This project follows the [Keep a Changelog](https://keepachangelog.com) format a
 - README section 12, "Detailed explanation of changes".
 
 **Changed**
-- Cache-busting version on `script.js`, `style.css`, and `part3.css` links raised to `?v=4`.
+- Cache-busting version on `script.js`, `style.css` and `part3.css` links raised to `?v=4`.
 
 ### [3.0.0] - 2026-10-29 (Part 3: functionality and SEO)
 **Added**
-- `script.js` with tabs, accordion, scroll reveal, gallery lightbox, dynamic services list, form validation, AJAX booking, enquiry estimate, contact email compiler, and Leaflet map.
+- `script.js` with tabs, accordion, scroll reveal, gallery lightbox, dynamic services list, form validation, AJAX booking, enquiry estimate, contact email compiler and Leaflet map.
 - `part3.css` for the new components; `style.css` kept as the Part 2 base.
-- `enquiry.html` with service, vehicle type, number of vehicles, location, and date fields.
+- `enquiry.html` with service, vehicle type, number of vehicles, location and date fields.
 - Gallery and FAQ sections on `services.html`; tabs on `about.html`; map and message type on `contact.html`.
 - `robots.txt`, `sitemap.xml`, `_headers`, `download_images.py`.
 - Per-page meta description, keywords, canonical URL, Open Graph tags and schema.org structured data.
@@ -173,21 +176,21 @@ This project follows the [Keep a Changelog](https://keepachangelog.com) format a
 - Home page grid had five cards and an empty cell; a sixth card was added.
 - Contact form had no validation or submission behaviour.
 - Welcome and enquiry pages lacked the contact email in the footer.
-- Map tiles: OpenStreetMap blocked requests without a referrer, and CARTO required an API key, so the map now uses Esri tiles.
+- Map tiles: OpenStreetMap blocked requests without a referrer and CARTO required an API key, so the map now uses Esri tiles.
 
 ### [2.1.0] - 2026-10-29 (Changes made in response to Part 2 feedback)
 Lecturer feedback: *"Excellent work. CSS, responsiveness, pseudo-classes, and references are well implemented; improve the GitHub documentation, commit evidence, and provide a formal changelog section."*
 
 | Feedback point | Action taken | Where to see it |
 |---|---|---|
-| Improve the GitHub documentation | README rewritten with overview, tech stack, file structure, local setup, feature table, SEO and security notes, testing checklist, deployment steps, and known limitations. | Sections 1 to 8 and 11 |
+| Improve the GitHub documentation | README rewritten with overview, tech stack, file structure, local setup, feature table, SEO and security notes, testing checklist, deployment steps and known limitations. | Sections 1 to 8 and 11 |
 | Improve commit evidence | Work is split into small commits with descriptive `type: message` titles; the planned history is listed and can be checked with `git log --oneline`. | Section 9 and the GitHub commit history |
-| Provide a formal changelog section | Changelog now uses versions, dates, and Added/Changed/Fixed categories, with this feedback response recorded as its own entry. | This section |
+| Provide a formal changelog section | Changelog now uses versions, dates and Added/Changed/Fixed categories, with this feedback response recorded as its own entry. | This section |
 | Keep strengths (CSS, responsiveness, pseudo-classes, references) | `style.css` carried forward unchanged apart from the font import; references list extended and kept in a consistent format. | `style.css`, References |
 
 ### [2.0.0] - Part 2 (CSS styling and responsive design)
 *(Add the date.)*
-**Added:** `style.css` with design tokens, type scale, sticky header, cards, tables, forms, hero, splash page, hover/focus pseudo-classes, and mobile-first breakpoints; reduced-motion support.
+**Added:** `style.css` with design tokens, type scale, sticky header, cards, tables, forms, hero, splash page, hover/focus pseudo-classes and mobile-first breakpoints; reduced-motion support.
 
 ### [1.0.0] - Part 1 (HTML structure)
 *(Add the date.)*
@@ -196,7 +199,7 @@ Lecturer feedback: *"Excellent work. CSS, responsiveness, pseudo-classes, and re
 ## 11. Known limitations
 - The booking form runs in demo mode until a Formspree form ID is added.
 - The contact form opens the visitor's email app instead of sending from the server (no back end).
-- Prices, phone number, and location are sample values for the assignment.
+- Prices, phone number and location are sample values for the assignment.
 - The map shows an approximate Johannesburg hub, not a real street address.
 - Customer reviews are placeholders until real reviews exist.
 
@@ -204,7 +207,7 @@ Lecturer feedback: *"Excellent work. CSS, responsiveness, pseudo-classes, and re
 This section explains each change and why it was made. The same material is in `docs/SparkleBay_Project_Documentation.docx` and on `changelog.html`.
 
 ### 12.1 From the original proposal to the finished site
-SparkleBay replaces informal WhatsApp promotion with one central website for services, prices, service area, and booking. The proposal targeted 25 booking enquiries a month, 300 visits a month, 40% of visitors viewing pricing and 10 verified reviews in six months. Each Part 3 feature supports one of these goals: the booking, enquiry and contact forms generate enquiries; SEO improves local visibility; the searchable price list supports decisions; and the reviews placeholder prepares for credibility.
+SparkleBay replaces informal WhatsApp promotion with one central website for services, prices, service area and booking. The proposal targeted 25 booking enquiries a month, 300 visits a month, 40% of visitors viewing pricing and 10 verified reviews in six months. Each Part 3 feature supports one of these goals: the booking, enquiry and contact forms generate enquiries; SEO improves local visibility; the searchable price list supports decisions; and the reviews placeholder prepares for credibility.
 
 ### 12.2 Part 2 to Part 3
 | Area | Part 2 | Part 3 | Why |
@@ -227,7 +230,7 @@ SparkleBay replaces informal WhatsApp promotion with one central website for ser
 | Old script kept running | Browser cache | Added `?v=` version number to asset links |
 
 ### 12.4 Updated sitemap
-`index.html` leads to `home.html`. `home.html` links to `about.html`, `services.html`, `booking.html`, `enquiry.html`, and `contact.html`. `about.html` links to `services.html`, `enquiry.html` and `contact.html`. `services.html` links to `booking.html` with the chosen service pre-selected. `contact.html` links to `services.html` and `booking.html`. `changelog.html` is reachable from the footer menu of every page. All pages are in the main menu and listed in `sitemap.xml`.
+`index.html` leads to `home.html`. `home.html` links to `about.html`, `services.html`, `booking.html`, `enquiry.html` and `contact.html`. `about.html` links to `services.html`, `enquiry.html` and `contact.html`. `services.html` links to `booking.html` with the chosen service pre-selected. `contact.html` links to `services.html` and `booking.html`. `changelog.html` is reachable from the footer menu of every page. All pages are in the main menu and listed in `sitemap.xml`.
 
 ## References
 
