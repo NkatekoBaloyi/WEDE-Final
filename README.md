@@ -49,7 +49,6 @@ SparkleBay brings an eco-friendly car wash to the customer's home, office, or ou
 ├── enquiry.html        Enquiry form (estimate response)
 ├── contact.html        Contact form + interactive map
 ├── changelog.html      Website summary of project changes
-├── docs/               Word documentation (SparkleBay_Project_Documentation.docx)
 ├── style.css           Part 2 styles (design tokens, layout, responsive rules)
 ├── part3.css           Part 3 component styles
 ├── script.js           All JavaScript
