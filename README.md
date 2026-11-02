@@ -87,6 +87,7 @@ SparkleBay brings an eco-friendly car wash to the customer's home, office or our
 | Validation | All forms | Required fields, SA phone format, email, name, date range, lengths; messages shown under each field |
 
 ## 6. SEO and security
+-A Content Security Policy notice for `about:srcdoc` appears on the live site. It comes from Netlify’s injected `nl-badge-frame`, not from the site’s own code, and does not affect functionality.
 - Unique title, meta description and meta keywords per page (Google, n.d.), using local keywords such as "mobile car wash Johannesburg".
 - One `<h1>` per page with a logical H2/H3 hierarchy.
 - Descriptive image file names (for example `mobile-car-wash-hero.jpg`), alt text, `width`/`height`, lazy loading.
